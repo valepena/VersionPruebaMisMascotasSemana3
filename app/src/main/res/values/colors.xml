@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#7339F6</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorFondoAcercaDeNosotros">#88C3F1</color>
+    <color name="color_letras">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+</resources>

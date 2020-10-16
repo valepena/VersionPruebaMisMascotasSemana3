@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cvMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/perro1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="@drawable/hueso"/>
+
+            <TextView
+                android:id="@+id/tvNombreCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pnombre"
+                android:textSize="@dimen/nombre_cardview"
+                android:layout_marginStart="@+id/btnLike"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/tvLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/likes"
+                android:textSize="@dimen/nombre_cardview"
+                android:layout_marginStart="@+id/tvNombreCV"
+                android:layout_marginLeft="150dp" />
+
+            <ImageView
+                android:id="@+id/imgHuesoAmarillo"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/hueso_amarillo"
+                android:textSize="@dimen/nombre_cardview"
+                android:layout_marginLeft="16dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
